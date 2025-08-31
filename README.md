@@ -64,3 +64,17 @@ we open file again
 #11 printing all line in file
 
 ______________________________________________________________________________________________________________________________
+
+tutedyde assignment 5.py 2 task 
+Task 1 
+#created List
+# defined Input with string value
+# handled Integrity issues like case issues
+# use if & else condition to find respective student details 
+
+Task 2: Demonstrate List Slicing
+# create range
+# printing details as initial
+# sliced first five numbers
+# instead of creating multiple variable  put sliced details in List again  
+
