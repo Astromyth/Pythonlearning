@@ -1,24 +1,20 @@
 # Module 4  Functions & Modules in Python
 # task1 Calculate factorial using function
-'''
-# we are giving number firs
-number = int(input("insert the no whose factorial you want : "))
 
-# created function where we are passing this number
-def factorial(n):
-    if n < 2:
-#checking if that number is less than 2 if yes , it will print answer 1
+
+number = int(input("insert the no whose factorial you want : "))         # we are giving number firs
+
+def factorial(n):                        # created function where we are passing this number
+    if n < 2:                          #checking if that number is less than 2 if yes , it will print answer 1
         return 1
- #if number is greater than two else stateme nt trigger and it will calculate further
-    else:
+    else:                              #if number is greater than two else stateme nt trigger and it will calculate further
         return n * (factorial(n - 1))
 
- # now we passing this functional function to variable and printing it
-Result = factorial(number)
+Result = factorial(number)            # now we passing this functional function to variable and printing it
 print(Result)
 
 
-'''
+
 
 #task 2 :
 #imported math module
